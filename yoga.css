@@ -1,0 +1,182 @@
+
+body 
+{
+    font-family: 'Aboreto', 'Georgia';font-size: 22px;  
+    color:rgb(234, 241, 241);
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.925)), url('media/bg/mandela.jpg');
+
+    background-size: cover;
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+}
+
+nav ul 
+{
+    background-color: teal;
+    list-style: none;
+    text-align: center;
+    padding: 10px; /* Add some padding for spacing */
+  }
+  
+  nav li 
+  {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  /* Style the menu links */
+  nav a 
+  {
+    text-decoration: none;
+    color: white; /* Text color for the links */
+    margin: 10px; /* Add margin to separate the links */
+  }
+
+ /* Styles for hover effect */
+ nav a:hover 
+ {
+    background-color: #005A80;
+ }
+  
+/* Styles for click effect */
+nav a:active 
+{
+  background-color: #002D40;
+}
+
+#about
+{
+  text-align: center; /* Center the text content horizontally */
+  align: center;
+}
+
+#about table
+{
+  margin: 0 auto; /* Center the table horizontally */
+}
+
+#services
+{
+  text-align: center; /* Center the text content horizontally */
+  align: center;
+}
+
+#services table
+{
+  margin: 0 auto; /* Center the table horizontally */
+}
+
+#benefits
+{
+  text-align: center; /* Center the text content horizontally */
+  align: center;
+}
+
+#benefits ul 
+{
+    display: inline-block;
+    text-align: left; /* Reset text alignment for list items */
+}
+
+.gallery
+{
+    align: center;
+}
+
+.gallery-image
+{
+    height: 250px;
+    align: center;
+    display: inline-block; /* Display images side by side */
+    max-width: 100%; 
+    margin: 10px 0; 
+}
+
+.gallery-image:hover {
+    transform: scale(1.5); /* Increase the scale to enlarge the image onhover */
+    cursor: pointer; 
+  }
+
+  @media (max-width: 768px) {
+    .gallery-image {
+      display: block; /* Display images stacked vertically in mobile mode */
+    }
+  }
+
+
+ /* Create a grid layout for the workout exercises */
+#workout 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 20px; 
+}
+  
+.exercise 
+{
+  background-color: #1a0c0c; 
+  padding: 20px; 
+  border: 1px solid #ccc; 
+}
+  
+.exercise h3 
+{
+  margin-top: 0; /* Remove top margin for the title */
+}
+  
+.exercise p 
+{
+  margin-bottom: 10px; /* Add margin */
+}
+  
+.benefits
+{
+  align:center;
+}
+
+#membership
+{
+  text-align: center; /* Center the text content horizontally */
+  align: center;
+}
+
+#membership table
+{
+  margin: 0 auto; /* Center the table horizontally */
+}
+
+#contact
+{
+  text-align: center; /* Center the text content horizontally */
+  align: center;
+}
+
+#contact table
+{
+  margin: 0 auto; /* Center the table horizontally */
+}
+
+form 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Adjust the spacing between elements as needed */
+    text-align: center; /* Center the text content horizontally */
+    align: center;
+     justify-content: center;
+}
+  
+label, input, textarea
+{
+    width: 40%;
+    box-sizing: border-box;
+    text-align: center; /* Center the text content horizontally */
+    align: center;
+    align-items: center;
+}
+
+input[type="submit"] 
+{
+    width: 10%;
+}
